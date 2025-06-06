@@ -9,6 +9,7 @@
 • Syriatel seeks to address increasing churn
 
 **Success Criteria**
+
 • Identify 5+ key features linked to churn
 
 • Classifier model with ≥90% accuracy, ≥75% precision
@@ -16,11 +17,13 @@
 • Actionable insights to reduce churn
 
 **Data Understanding**
+
 • Sourced from Kaggle: 3,333 rows, 21 columns
 
 • Customer data: state, account length, plans, call metrics, churn flag
 
 **Feature Details (Part 1)**
+
 • International & voicemail plans
 
 • Call minutes and charges (day/evening/night/int’l)
@@ -30,11 +33,13 @@
 • Churn (True/False)
 
 **Data Preparation**
+
 • Checked for duplicates, missing & null values
 
 • No issues found; clean dataset
 
 **Categorical Variable Insights**
+
 • Most customers retained; churn still impactful
 
 • Majority resolved issues in 4 calls
@@ -44,16 +49,19 @@
 • Int’l plans are rare—domestic focus
 
 **Numeric Variable Insights**
+
 • Call usage shows normal distribution
 
 • Charges align with usage—no pricing anomalies
 
 **Correlation Analysis**
+
 • Charges highly correlate with minutes
 
 • Validates appropriate pricing strategy
 
 **Customer Service & Churn**
+
 • Churned customers made more service calls
 
 • Indicates unresolved issues influenced churn
