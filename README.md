@@ -71,7 +71,9 @@
 Model: Logistic Regression | RF Classifier | Decision Tree
 
 Accuracy: 84% | 95% | 93%
+
 Precision: 11% | 74% | 69%
+
 F1-Score: 19% | 83% | 76%
 
 Model Recommendation
